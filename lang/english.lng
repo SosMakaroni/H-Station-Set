@@ -1,0 +1,34 @@
+﻿##grflangid 0x01
+# This is the English language file
+
+# GRF name and description definitions	
+STR_GRF_NAME	:HW Station Set
+STR_GRF_DESC	:{}{LTBLUE}Tram Set{}{BLACK}Model & Code:{GREEN}Flogeza & SosMakaroni{} {COPYRIGHT}2023 SosMakaroni{}{GRAY}License: GPLv2{}{BLACK}Ver.46 2023.10.05.
+
+STR_BUG	:HW bug, sorry :(
+
+STR_NAME_STATION_CLASS	:Próba peronok
+STR_NAME_A1	:Próba peron 1
+
+
+
+
+
+STR_PARAM_BUY_NAME	:Purchase cost
+STR_PARAM_BUY_DESC	:For players who want to choose the purchase cost.
+STR_PARAM_MAINTENANCE_NAME	:Maintenance costs
+STR_PARAM_MAINTENANCE_DESC	:For players who want to choose the cost of maintenance.
+STR_PARAM_GAME_VERY_EASY	:/4
+STR_PARAM_GAME_EASY	:/2
+STR_PARAM_GAME_NORMAL	:1 {SILVER} By default{BLACK}
+STR_PARAM_GAME_HARD	:x2
+STR_PARAM_GAME_VERY_HARD	:x4
+STR_PARAM_CARGOC_NAME:Cargo capacity
+STR_PARAM_CARGOC_DESC:For players who want to choose the cargo capacity multiplier.
+STR_PARAM_CARGOC_1:x1 {SILVER} By default{BLACK}
+STR_PARAM_CARGOC_2:x2
+STR_PARAM_CARGOC_4:x4
+STR_PARAM_CARGOC_8:x8
+
+
+STR_F_NAME	:Schlick F
