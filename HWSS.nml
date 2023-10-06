@@ -131,8 +131,8 @@ template tmpl_1(z1){
 	[301	*z1,	0,	69	*z1,	15	*z1,	-11	*z1,	-9	*z1,	ANIM]
 	[378	*z1,	0,	54	*z1,	40	*z1,	-8	*z1,	-14	*z1,	ANIM]}
 */
-template tmpl_station1(sor, oszlop, jobb, magas){
-	[70		*oszlop,	130	*sor,	64,	125,	jobb -31,	magas -94,	ANIM]}
+template tmpl_station1(oszlop, jobb, magas){
+	[72		*oszlop,	0,	64,	97,	jobb -31,	magas -66,	ANIM]}
 
 template tmpl_toldat() {
 	[0,	0,	2,	2,	1,	1]}	
@@ -179,18 +179,23 @@ font_glyph (SMALL, 0x0143, "src/icons.png") {[10,80,1,1,0,0]}
 font_glyph (LARGE, 0x0143, "src/icons.png") {[10,80,1,1,0,0]}
 font_glyph (MONO, 0x0143, "src/icons.png") {[10,80,1,1,0,0]}
 
-// --------------------------------------------------------------------------------A1
+// --------------------------------------------------------------------------------A4
 
-spriteset(building_A1_BUY, "src/prontetoV_32bpp_BASE.png")		{tmpl_station1(0,0)}  // Vásárlási nézet
+//spriteset(building_A1_BUY, "src/prontetoV_32bpp_BASE.png")		{tmpl_station1(0,0)}  // Vásárlási nézet
 
-spriteset(building_A1_X1, "src/prontetoV_32bpp_BASE.png")		{tmpl_station1(0,0,0,0)} // sor, oszlop, jobbra+, le+
-spriteset(building_A1_X2, "src/prontetoV_32bpp_BASE.png")		{tmpl_station1(0,1,-22,-11)}
-spriteset(building_A1_X3, "src/prontetoV_32bpp_BASE.png")		{tmpl_station1(0,4,0,14)}
-spriteset(building_A1_Y1, "src/prontetoV_32bpp_BASE.png")		{tmpl_station1(0,2,0,0)}
-spriteset(building_A1_Y2, "src/prontetoV_32bpp_BASE.png")		{tmpl_station1(0,3,22,-11)}
-spriteset(building_A1_Y3, "src/prontetoV_32bpp_BASE.png")		{tmpl_station1(0,5,0,14)}
+spriteset(building_A1_X1, "src/Peron_A.png")		{tmpl_station1(0,0,0)} // oszlop, jobbra+, le+
+spriteset(building_A1_X2, "src/Peron_A.png")		{tmpl_station1(1,-22,-11)}
+spriteset(building_A4_XO1, "src/Oszlop_beton_A.png")		{tmpl_station1(0,0,0)}
+spriteset(building_A4_XO2, "src/Oszlop_beton_A.png")		{tmpl_station1(1,-22,-11)}
+spriteset(building_A4_XE3, "src/Emelet_beton_A.png")		{tmpl_station1(0,0,14)}
+spriteset(building_A1_Y1, "src/Peron_A.png")		{tmpl_station1(2,0,0)}
+spriteset(building_A1_Y2, "src/Peron_A.png")		{tmpl_station1(3,22,-11)}
+spriteset(building_A4_YO1, "src/Oszlop_beton_A.png")		{tmpl_station1(0,0,0)}
+spriteset(building_A4_YO2, "src/Oszlop_beton_A.png")		{tmpl_station1(1,-22,-11)}
+spriteset(building_A4_YE3, "src/Emelet_beton_A.png")		{tmpl_station1(0,0,14)}
 
-spritelayout A1_X {
+
+spritelayout A4_X {
     ground {
         sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
     }
@@ -213,7 +218,7 @@ spritelayout A1_X {
 		zextent:	14;			// Modell magasság végső pont
     }
     building {
-        sprite: building_A1_X3;
+        sprite: building_A4_XE3;
 		xoffset:	0;			// Modell / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		yoffset:	0;			// Modell \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
 		zoffset:	14;			// Modell magasság kezdő pont - Poziciót ennyivel lejebb
@@ -223,7 +228,7 @@ spritelayout A1_X {
     }
 }
 
-spritelayout A1_Y {
+spritelayout A4_Y {
     ground {
         sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
     }
@@ -246,7 +251,7 @@ spritelayout A1_Y {
 		zextent:	14;			// Modell magasság végső pont
     }
     building {
-        sprite: building_A1_Y3;
+        sprite: building_A4_YE3;
 		xoffset:	0;			// Modell / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		yoffset:	0;			// Modell \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
 		zoffset:	14;			// Modell magasság kezdő pont - Poziciót ennyivel lejebb
@@ -256,20 +261,23 @@ spritelayout A1_Y {
     }
 }
 
-item(FEAT_STATIONS, A1) {
+item(FEAT_STATIONS, A4) {
     property {
-        class: "HSSE";
+        class: "APER";
         classname: string(STR_NAME_STATION_CLASS);		// Állomás csoport név
-        name: string(STR_NAME_A1);		// Állomás név
+        name: string(STR_NAME_A4);		// Állomás név
 
 //        disabled_platforms: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronszám
 //        disabled_length: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronhossz
-        draw_pylon_tiles: 0;		//még nem tudom mi ez
-        hide_wire_tiles: 0;		// Felősvezeték eltűntetése (0 nem, 1 igen)
+        draw_pylon_tiles: 0;		// Felősvezeték oszlop eltűntetése (0 nem, 1 igen)
+        hide_wire_tiles: 0;		// Felősvezeték kábel eltűntetése (0 nem, 1 igen)
 //        non_traversable_tiles: 0xFF;		// Nem járható peron
     }
 
     graphics {
-        sprite_layouts: [A1_X, A1_Y];		// Irányok X jobbra fel, Y jobbra le
+        sprite_layouts: [A4_X, A4_Y];		// Irányok X jobbra fel, Y jobbra le
     }
 }
+
+
+// --------------------------------------------------------------------------------A4 End

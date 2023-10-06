@@ -3,12 +3,18 @@
 
 # GRF name and description definitions	
 STR_GRF_NAME	:HW Station Set
-STR_GRF_DESC	:{}{LTBLUE}Tram Set{}{BLACK}Model & Code:{GREEN}Flogeza & SosMakaroni{} {COPYRIGHT}2023 SosMakaroni{}{GRAY}License: GPLv2{}{BLACK}Ver.46 2023.10.05.
+STR_GRF_DESC	:{}{LTBLUE}Tram Set{}{BLACK}Model & Code:{GREEN}Flogeza & SosMakaroni{} {COPYRIGHT}2023 SosMakaroni{}{GRAY}License: GPLv2{}{BLACK}Ver.66 2023.10.06.
 
 STR_BUG	:HW bug, sorry :(
 
-STR_NAME_STATION_CLASS	:Próba peronok
-STR_NAME_A1	:Próba peron 1
+STR_NAME_STATION_CLASS	:Vörös peronok
+STR_NAME_A1	:2 Peron
+STR_NAME_A2	:1 Peron - A oldal
+STR_NAME_A3	:1 Peron - B oldal
+STR_NAME_A4	:Köves perontető A
+STR_NAME_A5	:Köves perontető B
+STR_NAME_A6	:Beton perontető
+STR_NAME_A7	:Köves perontető fűvel
 
 
 

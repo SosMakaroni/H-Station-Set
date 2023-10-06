@@ -131,8 +131,8 @@ template tmpl_1(z1){
 	[301	*z1,	0,	69	*z1,	15	*z1,	-11	*z1,	-9	*z1,	ANIM]
 	[378	*z1,	0,	54	*z1,	40	*z1,	-8	*z1,	-14	*z1,	ANIM]}
 */
-template tmpl_station1(sor, oszlop, jobb, magas){
-	[70		*oszlop,	130	*sor,	64,	125,	jobb -31,	magas -94,	ANIM]}
+template tmpl_station1(oszlop, jobb, magas){
+	[72		*oszlop,	0,	64,	97,	jobb -31,	magas -66,	ANIM]}
 
 template tmpl_toldat() {
 	[0,	0,	2,	2,	1,	1]}	
