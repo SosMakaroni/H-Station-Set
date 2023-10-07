@@ -12,7 +12,7 @@ spritelayout A3_X {
 		zoffset:	0;			// Modell magasság kezdő pont - Poziciót ennyivel lejebb
 		xextent:	16;			// Modell / végső pont 1/16
 		yextent:	5;			// Modell \ végső pont 1/16
-		zextent:	14;			// Modell magasság végső pont
+		zextent:	4;			// Modell magasság végső pont
     }
     building {
         sprite: building_A0(X2);
@@ -21,7 +21,7 @@ spritelayout A3_X {
 		zoffset:	0;			// Modell magasság kezdő pont - Poziciót ennyivel lejebb
 		xextent:	16;			// Modell / végső pont 1/16
 		yextent:	5;			// Modell \ végső pont 1/16
-		zextent:	14;			// Modell magasság végső pont
+		zextent:	4;			// Modell magasság végső pont
     }
 }
 
@@ -36,7 +36,7 @@ spritelayout A3_Y {
 		zoffset:	0;			// Modell magasság kezdő pont - Poziciót ennyivel lejebb
 		xextent:	5;			// Modell / végső pont 1/16
 		yextent:	16;			// Modell \ végső pont 1/16
-		zextent:	14;			// Modell magasság végső pont
+		zextent:	4;			// Modell magasság végső pont
     }
     building {
         sprite: building_A0(Y2);
@@ -45,7 +45,7 @@ spritelayout A3_Y {
 		zoffset:	0;			// Modell magasság kezdő pont - Poziciót ennyivel lejebb
 		xextent:	5;			// Modell / végső pont 1/16
 		yextent:	16;			// Modell \ végső pont 1/16
-		zextent:	14;			// Modell magasság végső pont
+		zextent:	4;			// Modell magasság végső pont
     }
 }
 
