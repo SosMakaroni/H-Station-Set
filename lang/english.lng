@@ -3,22 +3,28 @@
 
 # GRF name and description definitions	
 STR_GRF_NAME	:HW Station Set
-STR_GRF_DESC	:{}{LTBLUE}Tram Set{}{BLACK}Model & Code:{GREEN}Flogeza & SosMakaroni{} {COPYRIGHT}2023 SosMakaroni{}Thanks for: andythenorth, Brickblock1 !!{}{GRAY}License: GPLv2{}{BLACK}Ver.124 2023.10.07.
+STR_GRF_DESC	:{}{LTBLUE}Tram Set{}{BLACK}Model & Code:{GREEN}Flogeza & SosMakaroni{} {COPYRIGHT}2023 SosMakaroni{}Thanks for: andythenorth, Brickblock1 !!{}{GRAY}License: GPLv2{}{BLACK}Ver.183 2023.10.12.
 
 STR_BUG	:HW bug, sorry :(
 
-STR_NAME_PMVA	:Vörös peronok
-STR_NAME_A1	:1 Peron - A oldal
-STR_NAME_A2	:1 Peron - B oldal
-STR_NAME_A3	:2 Peron
-STR_NAME_A4	:Köves perontető A
-STR_NAME_A5	:Köves perontető B
-STR_NAME_A6	:Beton perontető
-STR_NAME_A7	:Köves perontető fűvel
-STR_NAME_A8	:1 Peron - A oldal Köves perontető A
-STR_NAME_A9	:1 Peron - B oldal Köves perontető A
+STR_NAME_PMVA	:Vörös szimpla peronok
+STR_NAME_PMVB	:Vörös dupla peronok
 
+STR_NAME_A11	:Peron
+STR_NAME_A12	:Beton perontető
+STR_NAME_A13	:Köves perontető
+STR_NAME_A14	:Köves perontető fűvel
+STR_NAME_A15	:A5
+STR_NAME_A16	:A6
+STR_NAME_A17	:A7
+STR_NAME_A18	:A8
+STR_NAME_A19	:A9
 
+STR_NAME_PMTA	:Teher szimpla rakodók
+STR_NAME_PMTB	:Teher dupla rakodók
+
+STR_NAME_T11	:Peron
+STR_NAME_T12	:Peronvég
 
 
 
@@ -39,4 +45,3 @@ STR_PARAM_CARGOC_4:x4
 STR_PARAM_CARGOC_8:x8
 
 
-STR_F_NAME	:Schlick F
