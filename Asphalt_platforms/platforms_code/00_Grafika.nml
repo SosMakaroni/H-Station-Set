@@ -1,0 +1,121 @@
+// --------------------------------------------------------------------------------A spriteset
+
+spriteset(building_A0) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			jobbra+, le+
+	// peronok
+	XP_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi.png"]		// bal felső peron Peron_magas_Regi
+	XP_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi.png"]		// jobb alsó peron
+	YP_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi.png"]		// jobb felső peron
+	YP_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi.png"]		// bal alsó peron
+
+	XPA_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_arnyekos.png"]		// bal felső peron Peron_magas_Regi_arnyekos
+	XPA_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_arnyekos.png"]		// jobb alsó peron
+	YPA_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_arnyekos.png"]		// jobb felső peron
+	YPA_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_arnyekos.png"]		// bal alsó peron
+
+	XPVA_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_veg1A.png"]		// bal felső peron Peron_magas_Regi_veg1A
+	XPVA_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_veg1A.png"]		// jobb alsó peron
+	YPVA_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_veg1A.png"]		// jobb felső peron
+	YPVA_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_veg1A.png"]		// bal alsó peron
+
+	XPVB_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_veg1B.png"]		// bal felső peron Peron_magas_Regi_veg1B
+	XPVB_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_veg1B.png"]		// jobb alsó peron
+	YPVB_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_veg1B.png"]		// jobb felső peron
+	YPVB_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_veg1B.png"]		// bal alsó peron
+
+	XPVC_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_veg2A.png"]		// bal felső peron Peron_magas_Regi_veg2A
+	XPVC_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_veg2A.png"]		// jobb alsó peron
+	YPVC_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_veg2A.png"]		// jobb felső peron
+	YPVC_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_veg2A.png"]		// bal alsó peron
+
+	XPVD_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_veg2B.png"]		// bal felső peron Peron_magas_Regi_veg2B
+	XPVD_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_veg2B.png"]		// jobb alsó peron
+	YPVD_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Regi_veg2B.png"]		// jobb felső peron
+	YPVD_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Regi_veg2B.png"]		// bal alsó peron
+
+	XPMBO_A:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// bal felső peron Peron_magas_betonoszlop
+	XPMBO_B:		[72	* 1,	100	* 0,	64,	97,	-22	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb alsó peron
+	YPMBO_A:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb felső peron
+	YPMBO_B:		[72	* 3,	100	* 0,	64,	97,	22 	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// bal alsó peron
+
+	// oszlopok
+	XOMB_A:	[72	* 0,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		// bal felső oszlopok
+	XOMB_B:	[72	* 1,	100	* 0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// jobb alsó oszlopok
+	YOMB_A:	[72	* 2,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		//jobb felső oszlopok
+	YOMB_B:	[72	* 3,	100	* 0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// bal alsó oszlopok
+	// emeletek
+	EB01:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB02:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB03:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB04:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	// kiegészítők
+	XKAL_A:	[72	* 0,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_aluljaro.png"]		// bal felső Kieg_magas_aluljaro
+	XKAL_B:	[72	* 1,	100	* 0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Kieg_magas_aluljaro.png"]		// jobb alsó
+	YKAL_A:	[72	* 2,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_aluljaro.png"]		//jobb felső
+	YKAL_B:	[72	* 3,	100	* 0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Kieg_magas_aluljaro.png"]		// bal alsó
+
+	XKL1_A:	[72	* 0,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa1.png"]		// bal felső Kieg_magas_lampa1
+	XKL1_B:	[72	* 1,	100	* 0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa1.png"]		// jobb alsó
+	YKL1_A:	[72	* 2,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa1.png"]		//jobb felső
+	YKL1_B:	[72	* 3,	100	* 0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa1.png"]		// bal alsó
+
+	XKL1P_A:	[72	* 0,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal felső Kieg_magas_lampa1pad
+	XKL1P_B:	[72	* 1,	100	* 0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// jobb alsó
+	YKL1P_A:	[72	* 2,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa1pad.png"]		//jobb felső
+	YKL1P_B:	[72	* 3,	100	* 0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal alsó
+
+	XKL2_A:	[72	* 0,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa2.png"]		// bal felső Kieg_magas_lampa2
+	XKL2_B:	[72	* 1,	100	* 0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa2.png"]		// jobb alsó
+	YKL2_A:	[72	* 2,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa2.png"]		//jobb felső
+	YKL2_B:	[72	* 3,	100	* 0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa2.png"]		// bal alsó
+
+	XKL2P_A:	[72	* 0,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal felső Kieg_magas_lampa2pad
+	XKL2P_B:	[72	* 1,	100	* 0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// jobb alsó
+	YKL2P_A:	[72	* 2,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa2pad.png"]		//jobb felső
+	YKL2P_B:	[72	* 3,	100	* 0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal alsó
+
+	XKL3_A:	[72	* 0,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa3.png"]		// bal felső Kieg_magas_lampa3
+	XKL3_B:	[72	* 1,	100	* 0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa3.png"]		// jobb alsó
+	YKL3_A:	[72	* 2,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Kieg_magas_lampa3.png"]		//jobb felső
+	YKL3_B:	[72	* 3,	100	* 0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Kieg_magas_lampa3.png"]		// bal alsó
+}
+spriteset(NONE_cargo, "src/Ures.png") {		// üres
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+}
+spriteset(PASS1_cargo, "src/Aru_4magas_Utas1.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+}
+spriteset(PASS2_cargo, "src/Aru_4magas_Utas2.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+}
+spriteset(PASS3_cargo, "src/Aru_4magas_Utas3.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+}
+spriteset(PASS4_cargo, "src/Aru_4magas_Utas4.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+}
+spriteset(PASS5_cargo, "src/Aru_4magas_Utas5.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+}
+spritegroup passanger_cargo {
+	little: [PASS1_cargo, PASS2_cargo];
+	lots: [PASS3_cargo, PASS4_cargo, PASS5_cargo];
+}
+// --------------------------------------------------------------------------------A spriteset End

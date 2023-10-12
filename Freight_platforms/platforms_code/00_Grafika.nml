@@ -1,0 +1,67 @@
+// --------------------------------------------------------------------------------A spriteset
+
+spriteset(building_A0) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			jobbra+, le+
+	// peronok
+	XP5_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Teher.png"]		// bal felső peron Peron_magas_Teher
+	XP5_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Teher.png"]		// jobb alsó peron
+	YP5_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Teher.png"]		// jobb felső peron
+	YP5_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Teher.png"]		// bal alsó peron
+
+	XP5VA_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Teher_vegA.png"]		// bal felső peron Peron_magas_Teher_vegA
+	XP5VA_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Teher_vegA.png"]		// jobb alsó peron
+	YP5VA_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Teher_vegA.png"]		// jobb felső peron
+	YP5VA_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Teher_vegA.png"]		// bal alsó peron
+
+	XP5VB_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Teher_vegB.png"]		// bal felső peron Peron_magas_Teher_vegB
+	XP5VB_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Teher_vegB.png"]		// jobb alsó peron
+	YP5VB_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Teher_vegB.png"]		// jobb felső peron
+	YP5VB_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Teher_vegB.png"]		// bal alsó peron
+}
+	// oszlopok
+
+	// emeletek
+
+	// kiegészítők
+
+spriteset(NONE_cargo, "src/Ures.png") {		// üres
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+}
+spriteset(LADA1_cargo, "src/Aru_5magas_Lada1.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-8 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-8 -74,	ANIM]
+}
+spriteset(LADA2_cargo, "src/Aru_5magas_Lada2.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-8 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-8 -74,	ANIM]
+}
+spriteset(LADA3_cargo, "src/Aru_5magas_Lada3.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-8 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-8 -74,	ANIM]
+}
+spriteset(LADA4_cargo, "src/Aru_5magas_Lada4.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-8 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-8 -74,	ANIM]
+}
+spriteset(LADA5_cargo, "src/Aru_5magas_Lada5.png") {
+	[72	* 0,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-8 -74,	ANIM]
+	[72	* 2,	105	* 0,	64,	105,	0 	-31,	3 -74,		ANIM]
+	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-8 -74,	ANIM]
+}
+spritegroup LADA_cargo {
+	little: [LADA1_cargo, LADA2_cargo];
+	lots: [LADA3_cargo, LADA4_cargo, LADA5_cargo];
+}
+
+// --------------------------------------------------------------------------------A spriteset End

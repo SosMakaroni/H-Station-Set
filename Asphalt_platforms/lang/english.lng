@@ -1,0 +1,41 @@
+﻿##grflangid 0x01
+# This is the English language file
+
+# GRF name and description definitions	
+STR_GRF_NAME	:Hungarian Station Set (Asphalt platforms)
+STR_GRF_DESC	:{}{LTBLUE}Station Set{}{BLACK}Graphic & Code:{GREEN}Flogeza & SosMakaroni{} {COPYRIGHT}2023 SosMakaroni{}Thanks for: andythenorth, Brickblock1 !!{}{GRAY}License: GPLv2{}{BLACK}Ver.5 2023.10.12.
+
+STR_BUG	:HSS bug, sorry :(
+
+STR_NAME_PMRA	:HSS Aszfalt magas peronok
+STR_NAME_PMRB	:HSS Dupla aszfalt magas peronok
+
+STR_NAME_A11	:Peron
+STR_NAME_A12	:Peronvég
+STR_NAME_A13	:Köves perontető
+STR_NAME_A14	:Köves perontető fűvel
+STR_NAME_A15	:15
+STR_NAME_A16	:A6
+STR_NAME_A17	:A7
+STR_NAME_A18	:A8
+STR_NAME_A19	:A9
+
+
+
+STR_PARAM_BUY_NAME	:Purchase cost
+STR_PARAM_BUY_DESC	:For players who want to choose the purchase cost.
+STR_PARAM_MAINTENANCE_NAME	:Maintenance costs
+STR_PARAM_MAINTENANCE_DESC	:For players who want to choose the cost of maintenance.
+STR_PARAM_GAME_VERY_EASY	:/4
+STR_PARAM_GAME_EASY	:/2
+STR_PARAM_GAME_NORMAL	:1 {SILVER} By default{BLACK}
+STR_PARAM_GAME_HARD	:x2
+STR_PARAM_GAME_VERY_HARD	:x4
+STR_PARAM_CARGOC_NAME:Cargo capacity
+STR_PARAM_CARGOC_DESC:For players who want to choose the cargo capacity multiplier.
+STR_PARAM_CARGOC_1:x1 {SILVER} By default{BLACK}
+STR_PARAM_CARGOC_2:x2
+STR_PARAM_CARGOC_4:x4
+STR_PARAM_CARGOC_8:x8
+
+
