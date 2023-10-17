@@ -51,7 +51,7 @@ spritelayout A080_X {
 		zextent:	10;			// Magasság felső pont
 	}
 building {
-        sprite: building_A0(EB01);		// Tető
+        sprite: roof_A0(EB00);		// Tető
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
@@ -111,7 +111,7 @@ spritelayout A080_Y {
 		zextent:	10;			// Magasság felső pont
 	}
     building {
-        sprite: building_A0(EB01);		// Tető
+        sprite: roof_A0(EB00);		// Tető
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra

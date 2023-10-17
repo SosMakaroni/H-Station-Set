@@ -48,6 +48,11 @@ spriteset(building_A0) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			job
 	EB03:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
 	EB04:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
 	// kiegészítők
+	XKT1_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		// bal felső Kieg_magas_tabla1
+	XKT1_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// jobb alsó
+	YKT1_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		//jobb felső
+	YKT1_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// bal alsó
+
 	XKAL_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		// bal felső Kieg_magas_aluljaro
 	XKAL_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// jobb alsó
 	YKAL_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		//jobb felső
@@ -78,6 +83,24 @@ spriteset(building_A0) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			job
 	YKL3_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		//jobb felső
 	YKL3_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// bal alsó
 }
+spriteset(roof_A0) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			jobbra+, le+
+	EB00:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB01:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB02:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB03:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EBX04:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
+	EBX05:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
+	EBX06:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
+	EBX07:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
+	EBX08:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
+	EBX09:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
+	EBX10:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
+	EBX11:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
+	EBX12:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
+	EBX13:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
+	EBX14:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
+}
+
 spriteset(NONE_cargo, "src/Ures.png") {		// üres
 	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
 	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]

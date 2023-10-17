@@ -1,7 +1,7 @@
-// --------------------------------------------------------------------------------A082
+// --------------------------------------------------------------------------------A112
 
 
-spritelayout A082_X {
+spritelayout A112_X {
     ground {
         sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
     }
@@ -60,7 +60,7 @@ spritelayout A082_X {
 		zextent:	8;			// Magasság felső pont
 	}
 building {
-        sprite: roof_A0(EB00);		// Tető
+        sprite: roof_A0(EB02);		// Tető
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
@@ -70,7 +70,7 @@ building {
     }
 }
 
-spritelayout A082_Y {
+spritelayout A112_Y {
     ground {
         sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
     }
@@ -129,7 +129,7 @@ spritelayout A082_Y {
 		zextent:	8;			// Magasság felső pont
 	}
     building {
-        sprite: roof_A0(EB00);		// Tető
+        sprite: roof_A0(EB02);		// Tető
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
@@ -139,7 +139,7 @@ spritelayout A082_Y {
     }
 }
 
-item(FEAT_STATIONS, A082, 082) {
+item(FEAT_STATIONS, A112, 112) {
     property {
         class: "PMVB";		//PeronMagasVörösA
         classname: string(STR_NAME_PMVB);		// Állomás csoport név
@@ -152,11 +152,11 @@ item(FEAT_STATIONS, A082, 082) {
 //        non_traversable_tiles: 0xFF;		// Nem járható peron
     }
     graphics {
-        sprite_layouts: [A082_X, A082_Y];		// Irányok X jobbra fel, Y jobbra le
+        sprite_layouts: [A112_X, A112_Y];		// Irányok X jobbra fel, Y jobbra le
 		PASS: passanger_cargo;
 		NONE_cargo;
     }
 }
 
 
-// --------------------------------------------------------------------------------A082 End
+// --------------------------------------------------------------------------------A112 End

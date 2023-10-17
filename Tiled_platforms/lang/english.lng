@@ -3,7 +3,7 @@
 
 # GRF name and description definitions	
 STR_GRF_NAME	:Hungarian Station Set (Tiled platforms)
-STR_GRF_DESC	:{}{LTBLUE}Station Set{}{BLACK}Graphic & Code:{GREEN}Flogeza & SosMakaroni{} {COPYRIGHT}2023 SosMakaroni{}Thanks for: andythenorth, Brickblock1 !!{}{GRAY}License: GPLv2{}{BLACK}Ver.15 2023.10.13.
+STR_GRF_DESC	:{}{LTBLUE}Station Set{}{BLACK}Graphic & Code:{GREEN}Flogeza & SosMakaroni{} {COPYRIGHT}2023 SosMakaroni{}Thanks for: andythenorth, Brickblock1 !!{}{GRAY}License: GPLv2{}{BLACK}Ver.44 2023.10.17.
 
 STR_BUG	:HSS bug, sorry :(
 
@@ -13,12 +13,16 @@ STR_NAME_PMVB	:HSS Dupla kockaköves magas peronok
 STR_NAME_A11	:Peron
 STR_NAME_A12	:Peronvég
 STR_NAME_A13	:Köves perontető
-STR_NAME_A14	:Köves perontető fűvel
+STR_NAME_A14	:Köves perontető széle
 STR_NAME_A15	:Aluljáró
 STR_NAME_A16	:Lámpa
 STR_NAME_A17	:Lámpa paddal
-STR_NAME_A18	:A8
-STR_NAME_A19	:A9
+STR_NAME_A18	:Köves perontető sarok
+STR_NAME_A19	:Tábla
+STR_NAME_A20	:Díszek
+
+
+STR_NAME_ATESZT	:TESZT
 
 
 STR_PARAM_BUY_NAME	:Purchase cost
