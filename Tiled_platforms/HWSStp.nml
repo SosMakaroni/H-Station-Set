@@ -100,145 +100,350 @@ font_glyph (MONO, 0x0143, "src/icons.png") {[10,80,1,1,0,0]}
 
 spriteset(building_A0) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			jobbra+, le+
 	// peronok
-	XP_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros.png"]		// bal felső peron Peron_magas_Voros
-	XP_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros.png"]		// jobb alsó peron
-	YP_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros.png"]		// jobb felső peron
-	YP_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros.png"]		// bal alsó peron
+	XP_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_1x_8bpp.png"]		// bal felső peron Peron_magas_Voros
+	XP_B:		[72	* 1,	0,	64,	105,	-20	-31,	-10 -74,	ANIM, "src/Peron_magas_Voros_1x_8bpp.png"]		// jobb alsó peron
+	YP_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_1x_8bpp.png"]		// jobb felső peron
+	YP_B:		[72	* 3,	0,	64,	105,	20 	-31,	-10 -74,	ANIM, "src/Peron_magas_Voros_1x_8bpp.png"]		// bal alsó peron
 
-	XPA_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal felső peron Peron_magas_Voros_arnyekos
-	XPA_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb alsó peron
-	YPA_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb felső peron
-	YPA_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal alsó peron
+	XPA_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal felső peron Peron_magas_Voros_arnyekos
+	XPA_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb alsó peron
+	YPA_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb felső peron
+	YPA_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal alsó peron
 
-	XPVA_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1A.png"]		// bal felső peron Peron_magas_Voros_veg1A
-	XPVA_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1A.png"]		// jobb alsó peron
-	YPVA_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1A.png"]		// jobb felső peron
-	YPVA_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1A.png"]		// bal alsó peron
+	XPVA_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1A.png"]		// bal felső peron Peron_magas_Voros_veg1A
+	XPVA_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1A.png"]		// jobb alsó peron
+	YPVA_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1A.png"]		// jobb felső peron
+	YPVA_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1A.png"]		// bal alsó peron
 
-	XPVB_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1B.png"]		// bal felső peron Peron_magas_Voros_veg1B
-	XPVB_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1B.png"]		// jobb alsó peron
-	YPVB_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1B.png"]		// jobb felső peron
-	YPVB_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1B.png"]		// bal alsó peron
+	XPVB_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1B.png"]		// bal felső peron Peron_magas_Voros_veg1B
+	XPVB_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1B.png"]		// jobb alsó peron
+	YPVB_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1B.png"]		// jobb felső peron
+	YPVB_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1B.png"]		// bal alsó peron
 
-	XPVC_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2A.png"]		// bal felső peron Peron_magas_Voros_veg2A
-	XPVC_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2A.png"]		// jobb alsó peron
-	YPVC_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2A.png"]		// jobb felső peron
-	YPVC_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2A.png"]		// bal alsó peron
+	XPVC_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2A.png"]		// bal felső peron Peron_magas_Voros_veg2A
+	XPVC_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2A.png"]		// jobb alsó peron
+	YPVC_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2A.png"]		// jobb felső peron
+	YPVC_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2A.png"]		// bal alsó peron
 
-	XPVD_A:		[72	* 0,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2B.png"]		// bal felső peron Peron_magas_Voros_veg2B
-	XPVD_B:		[72	* 1,	100	* 0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2B.png"]		// jobb alsó peron
-	YPVD_A:		[72	* 2,	100	* 0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2B.png"]		// jobb felső peron
-	YPVD_B:		[72	* 3,	100	* 0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2B.png"]		// bal alsó peron
+	XPVD_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2B.png"]		// bal felső peron Peron_magas_Voros_veg2B
+	XPVD_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2B.png"]		// jobb alsó peron
+	YPVD_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2B.png"]		// jobb felső peron
+	YPVD_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2B.png"]		// bal alsó peron
 
-	XPMBO_A:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// bal felső peron Peron_magas_betonoszlop
-	XPMBO_B:		[72	* 1,	100	* 0,	64,	97,	-22	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb alsó peron
-	YPMBO_A:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb felső peron
-	YPMBO_B:		[72	* 3,	100	* 0,	64,	97,	22 	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// bal alsó peron
+	XPMBO_A:		[72	* 0,	0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// bal felső peron Peron_magas_betonoszlop
+	XPMBO_B:		[72	* 1,	0,	64,	97,	-22	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb alsó peron
+	YPMBO_A:		[72	* 2,	0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb felső peron
+	YPMBO_B:		[72	* 3,	0,	64,	97,	22 	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// bal alsó peron
 
 	// oszlopok
-	XOMB_A:	[72	* 0,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		// bal felső oszlopok
-	XOMB_B:	[72	* 1,	100	* 0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// jobb alsó oszlopok
-	YOMB_A:	[72	* 2,	100	* 0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		//jobb felső oszlopok
-	YOMB_B:	[72	* 3,	100	* 0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// bal alsó oszlopok
+	XOMB_A:	[72	* 0,	0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		// bal felső oszlopok
+	XOMB_B:	[72	* 1,	0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// jobb alsó oszlopok
+	YOMB_A:	[72	* 2,	0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		//jobb felső oszlopok
+	YOMB_B:	[72	* 3,	0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// bal alsó oszlopok
 	// emeletek
-	EB01:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
-	EB02:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
-	EB03:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
-	EB04:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB01:		[72	* 0,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB02:		[72	* 1,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB03:		[72	* 2,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB04:		[72	* 3,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
 	// kiegészítők
-	XKT1_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		// bal felső Kieg_magas_tabla1
-	XKT1_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// jobb alsó
-	YKT1_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		//jobb felső
-	YKT1_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// bal alsó
+	XKT1_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		// bal felső Kieg_magas_tabla1
+	XKT1_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// jobb alsó
+	YKT1_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		//jobb felső
+	YKT1_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// bal alsó
 
-	XKAL_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		// bal felső Kieg_magas_aluljaro
-	XKAL_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// jobb alsó
-	YKAL_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		//jobb felső
-	YKAL_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// bal alsó
+	XKAL_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		// bal felső Kieg_magas_aluljaro
+	XKAL_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// jobb alsó
+	YKAL_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		//jobb felső
+	YKAL_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// bal alsó
 
-	XKL1_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1.png"]		// bal felső Kieg_magas_lampa1
-	XKL1_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1.png"]		// jobb alsó
-	YKL1_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1.png"]		//jobb felső
-	YKL1_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1.png"]		// bal alsó
+	XKL1_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1.png"]		// bal felső Kieg_magas_lampa1
+	XKL1_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1.png"]		// jobb alsó
+	YKL1_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1.png"]		//jobb felső
+	YKL1_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1.png"]		// bal alsó
 
-	XKL1P_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal felső Kieg_magas_lampa1pad
-	XKL1P_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// jobb alsó
-	YKL1P_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1pad.png"]		//jobb felső
-	YKL1P_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal alsó
+	XKL1P_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal felső Kieg_magas_lampa1pad
+	XKL1P_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// jobb alsó
+	YKL1P_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1pad.png"]		//jobb felső
+	YKL1P_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal alsó
 
-	XKL2_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2.png"]		// bal felső Kieg_magas_lampa2
-	XKL2_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2.png"]		// jobb alsó
-	YKL2_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2.png"]		//jobb felső
-	YKL2_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2.png"]		// bal alsó
+	XKL2_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2.png"]		// bal felső Kieg_magas_lampa2
+	XKL2_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2.png"]		// jobb alsó
+	YKL2_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2.png"]		//jobb felső
+	YKL2_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2.png"]		// bal alsó
 
-	XKL2P_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal felső Kieg_magas_lampa2pad
-	XKL2P_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// jobb alsó
-	YKL2P_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2pad.png"]		//jobb felső
-	YKL2P_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal alsó
+	XKL2P_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal felső Kieg_magas_lampa2pad
+	XKL2P_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// jobb alsó
+	YKL2P_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2pad.png"]		//jobb felső
+	YKL2P_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal alsó
 
-	XKL3_A:	[72	* 0,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		// bal felső Kieg_magas_lampa3
-	XKL3_B:	[72	* 1,	100	* 0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// jobb alsó
-	YKL3_A:	[72	* 2,	100	* 0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		//jobb felső
-	YKL3_B:	[72	* 3,	100	* 0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// bal alsó
+	XKL3_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		// bal felső Kieg_magas_lampa3
+	XKL3_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// jobb alsó
+	YKL3_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		//jobb felső
+	YKL3_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// bal alsó
 }
 spriteset(roof_A0) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			jobbra+, le+
-	EB00:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
-	EB01:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
-	EB02:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
-	EB03:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
-	EBX04:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
-	EBX05:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
-	EBX06:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
-	EBX07:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
-	EBX08:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
-	EBX09:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
-	EBX10:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
-	EBX11:		[72	* 3,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
-	EBX12:		[72	* 0,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
-	EBX13:		[72	* 1,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
-	EBX14:		[72	* 2,	100	* 0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
+	EB00:		[72	* 0,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB01:		[72	* 1,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB02:		[72	* 2,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB03:		[72	* 3,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EBX04:		[72	* 0,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
+	EBX05:		[72	* 1,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
+	EBX06:		[72	* 2,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
+	EBX07:		[72	* 3,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_faszel.png"]
+	EBX08:		[72	* 0,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
+	EBX09:		[72	* 1,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
+	EBX10:		[72	* 2,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
+	EBX11:		[72	* 3,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_fasarok.png"]
+	EBX12:		[72	* 0,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
+	EBX13:		[72	* 1,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
+	EBX14:		[72	* 2,	0,	64,	97,	0 	-31,	22 -66,	ANIM, "src/Emelet_beton_egyeb1.png"]
+	EB15:		[72	* 0,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_uveg.png"]
+	EB16:		[72	* 1,	0,	64,	97,	31 	-31,	20 -66,	ANIM, "src/Emelet_beton_uveg.png"]
+}
+spriteset(nyugatigraf) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			jobbra+, le+
+	XPA_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal felső peron Peron_magas_Voros_arnyekos
+	XPA_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb alsó peron
+	YPA_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb felső peron
+	YPA_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal alsó peron
+
+	NY_FALA:		[72	* 0,	0,	64,	105,	0	-31,	0	-74,	ANIM, "src/Nyugati_fal.png"]
+	NY_FALB:		[72	* 1,	0,	64,	105,	-30	-31,	-15	-74,	ANIM, "src/Nyugati_fal.png"]
+	NY_FALC:		[72	* 2,	0,	64,	105,	0	-31,	0	-74,	ANIM, "src/Nyugati_fal.png"]
+	NY_FALD:		[72	* 3,	0,	64,	105,	30	-31,	-15	-74,	ANIM, "src/Nyugati_fal.png"]
+	NY_FALAU:		[72	* 0,	0,	64,	105,	31	-31,	29	-74,	ANIM, "src/Nyugati_fal_uveg.png"]
+	NY_FALBU:		[72	* 1,	0,	64,	105,	0	-31,	13	-74,	ANIM, "src/Nyugati_fal_uveg.png"]
+	NY_FALCU:		[72	* 2,	0,	64,	105,	1	-31,	29	-74,	ANIM, "src/Nyugati_fal_uveg.png"]
+	NY_FALDU:		[72	* 3,	0,	64,	105,	31	-31,	13	-74,	ANIM, "src/Nyugati_fal_uveg.png"]
+
+	NY_TETOA:		[72	* 0,	0,	64,	105,	0	-31,	30	-74,	ANIM, "src/Nyugati_tetoteli.png"]
+	NY_TETOB:		[72	* 1,	0,	64,	105,	0	-31,	30	-74,	ANIM, "src/Nyugati_tetoteli.png"]
+	NY_TETOC:		[72	* 2,	0,	64,	105,	0	-31,	30	-74,	ANIM, "src/Nyugati_tetoteli.png"]
+	NY_TETOD:		[72	* 3,	0,	64,	105,	0	-31,	30	-74,	ANIM, "src/Nyugati_tetoteli.png"]
+
+	NY_FRONTA:		[72	* 0,	0,	64,	105,	30	-31,	-15	-74,	ANIM, "src/Nyugati_frontA.png"]
+	NY_FRONTB:		[72	* 1,	0,	64,	105,	30	-31,	-15	-74,	ANIM, "src/Nyugati_frontA.png"]
+	NY_FRONTC:		[72	* 2,	0,	64,	105,	-30	-31,	-15	-74,	ANIM, "src/Nyugati_frontA.png"]
+	NY_FRONTD:		[72	* 3,	0,	64,	105,	-30	-31,	-15	-74,	ANIM, "src/Nyugati_frontA.png"]
+	NY_FRONTAU:		[72	* 0,	0,	64,	105,	31	-31,	15	-74,	ANIM, "src/Nyugati_frontA_uveg.png"]
+	NY_FRONTBU:		[72	* 1,	0,	64,	105,	31	-31,	36	-74,	ANIM, "src/Nyugati_frontA_uveg.png"]
+	NY_FRONTCU:		[72	* 2,	0,	64,	105,	-1	-31,	15	-74,	ANIM, "src/Nyugati_frontA_uveg.png"]
+	NY_FRONTDU:		[72	* 3,	0,	64,	105,	-1	-31,	36	-74,	ANIM, "src/Nyugati_frontA_uveg.png"]
 }
 
 spriteset(NONE_cargo, "src/Ures.png") {		// üres
-	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
-	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	0,	64,	105,	22 	-31,	-7 -74,	ANIM]
 }
 spriteset(PASS1_cargo, "src/Aru_4magas_Utas1.png") {
-	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
-	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	0,	64,	105,	22 	-31,	-7 -74,	ANIM]
 }
 spriteset(PASS2_cargo, "src/Aru_4magas_Utas2.png") {
-	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
-	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	0,	64,	105,	22 	-31,	-7 -74,	ANIM]
 }
 spriteset(PASS3_cargo, "src/Aru_4magas_Utas3.png") {
-	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
-	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	0,	64,	105,	22 	-31,	-7 -74,	ANIM]
 }
 spriteset(PASS4_cargo, "src/Aru_4magas_Utas4.png") {
-	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
-	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	0,	64,	105,	22 	-31,	-7 -74,	ANIM]
 }
 spriteset(PASS5_cargo, "src/Aru_4magas_Utas5.png") {
-	[72	* 0,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 1,	105	* 0,	64,	105,	-22	-31,	-7 -74,	ANIM]
-	[72	* 2,	105	* 0,	64,	105,	0 	-31,	4 -74,		ANIM]
-	[72	* 3,	105	* 0,	64,	105,	22 	-31,	-7 -74,	ANIM]
+	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 1,	0,	64,	105,	-22	-31,	-7 -74,	ANIM]
+	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM]
+	[72	* 3,	0,	64,	105,	22 	-31,	-7 -74,	ANIM]
 }
 spritegroup passanger_cargo {
 	little: [PASS1_cargo, PASS2_cargo];
 	lots: [PASS3_cargo, PASS4_cargo, PASS5_cargo];
 }
+// --------------------------------------------------------------------------------A spriteset End
+// --------------------------------------------------------------------------------A spriteset
+
+alternative_sprites(building_A0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			jobbra+, le+
+	// peronok
+	XP_A:		[144	* 0,	0,	128,	210,	0 	-62,	0	-148,	ANIM, "src/Peron_magas_Voros_2x_8bpp.png"]		// bal felső peron Peron_magas_Voros
+	XP_B:		[144	* 1,	0,	128,	210,	-40	-62,	-20	-148,	ANIM, "src/Peron_magas_Voros_2x_8bpp.png"]		// jobb alsó peron
+	YP_A:		[144	* 2,	0,	128,	210,	0 	-62,	0	-148,	ANIM, "src/Peron_magas_Voros_2x_8bpp.png"]		// jobb felső peron
+	YP_B:		[144	* 3,	0,	128,	210,	40 	-62,	-20	-148,	ANIM, "src/Peron_magas_Voros_2x_8bpp.png"]		// bal alsó peron
+
+	XPA_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal felső peron Peron_magas_Voros_arnyekos
+	XPA_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb alsó peron
+	YPA_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb felső peron
+	YPA_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal alsó peron
+
+	XPVA_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1A.png"]		// bal felső peron Peron_magas_Voros_veg1A
+	XPVA_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1A.png"]		// jobb alsó peron
+	YPVA_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1A.png"]		// jobb felső peron
+	YPVA_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1A.png"]		// bal alsó peron
+
+	XPVB_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1B.png"]		// bal felső peron Peron_magas_Voros_veg1B
+	XPVB_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1B.png"]		// jobb alsó peron
+	YPVB_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1B.png"]		// jobb felső peron
+	YPVB_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1B.png"]		// bal alsó peron
+
+	XPVC_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2A.png"]		// bal felső peron Peron_magas_Voros_veg2A
+	XPVC_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2A.png"]		// jobb alsó peron
+	YPVC_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2A.png"]		// jobb felső peron
+	YPVC_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2A.png"]		// bal alsó peron
+
+	XPVD_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2B.png"]		// bal felső peron Peron_magas_Voros_veg2B
+	XPVD_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2B.png"]		// jobb alsó peron
+	YPVD_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2B.png"]		// jobb felső peron
+	YPVD_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2B.png"]		// bal alsó peron
+
+	XPMBO_A:		[72	* 0,	0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// bal felső peron Peron_magas_betonoszlop
+	XPMBO_B:		[72	* 1,	0,	64,	97,	-22	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb alsó peron
+	YPMBO_A:		[72	* 2,	0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb felső peron
+	YPMBO_B:		[72	* 3,	0,	64,	97,	22 	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// bal alsó peron
+
+	// oszlopok
+	XOMB_A:	[72	* 0,	0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		// bal felső oszlopok
+	XOMB_B:	[72	* 1,	0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// jobb alsó oszlopok
+	YOMB_A:	[72	* 2,	0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		//jobb felső oszlopok
+	YOMB_B:	[72	* 3,	0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// bal alsó oszlopok
+	// emeletek
+	EB01:		[72	* 0,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB02:		[72	* 1,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB03:		[72	* 2,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB04:		[72	* 3,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	// kiegészítők
+	XKT1_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		// bal felső Kieg_magas_tabla1
+	XKT1_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// jobb alsó
+	YKT1_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		//jobb felső
+	YKT1_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// bal alsó
+
+	XKAL_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		// bal felső Kieg_magas_aluljaro
+	XKAL_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// jobb alsó
+	YKAL_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		//jobb felső
+	YKAL_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// bal alsó
+
+	XKL1_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1.png"]		// bal felső Kieg_magas_lampa1
+	XKL1_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1.png"]		// jobb alsó
+	YKL1_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1.png"]		//jobb felső
+	YKL1_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1.png"]		// bal alsó
+
+	XKL1P_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal felső Kieg_magas_lampa1pad
+	XKL1P_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// jobb alsó
+	YKL1P_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1pad.png"]		//jobb felső
+	YKL1P_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal alsó
+
+	XKL2_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2.png"]		// bal felső Kieg_magas_lampa2
+	XKL2_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2.png"]		// jobb alsó
+	YKL2_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2.png"]		//jobb felső
+	YKL2_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2.png"]		// bal alsó
+
+	XKL2P_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal felső Kieg_magas_lampa2pad
+	XKL2P_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// jobb alsó
+	YKL2P_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2pad.png"]		//jobb felső
+	YKL2P_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal alsó
+
+	XKL3_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		// bal felső Kieg_magas_lampa3
+	XKL3_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// jobb alsó
+	YKL3_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		//jobb felső
+	YKL3_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// bal alsó
+}
+
+// --------------------------------------------------------------------------------A spriteset End
+// --------------------------------------------------------------------------------A spriteset
+
+alternative_sprites(building_A0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP) {		//	72*oszlop,	100*sor,	64,	97,	jobb-31,	magas-66			jobbra+, le+
+	// peronok
+	XP_A:		[288	* 0,	0,	256,	420,	0 	-124,	0 -296,		ANIM, "src/Peron_magas_Voros_4x_8bpp.png"]		// bal felső peron Peron_magas_Voros
+	XP_B:		[288	* 1,	0,	256,	420,	-80	-124,	-40 -296,	ANIM, "src/Peron_magas_Voros_4x_8bpp.png"]		// jobb alsó peron
+	YP_A:		[288	* 2,	0,	256,	420,	0 	-124,	0 -296,		ANIM, "src/Peron_magas_Voros_4x_8bpp.png"]		// jobb felső peron
+	YP_B:		[288	* 3,	0,	256,	420,	80 	-124,	-40 -296,	ANIM, "src/Peron_magas_Voros_4x_8bpp.png"]		// bal alsó peron
+
+	XPA_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal felső peron Peron_magas_Voros_arnyekos
+	XPA_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb alsó peron
+	YPA_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// jobb felső peron
+	YPA_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_arnyekos.png"]		// bal alsó peron
+
+	XPVA_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1A.png"]		// bal felső peron Peron_magas_Voros_veg1A
+	XPVA_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1A.png"]		// jobb alsó peron
+	YPVA_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1A.png"]		// jobb felső peron
+	YPVA_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1A.png"]		// bal alsó peron
+
+	XPVB_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1B.png"]		// bal felső peron Peron_magas_Voros_veg1B
+	XPVB_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1B.png"]		// jobb alsó peron
+	YPVB_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg1B.png"]		// jobb felső peron
+	YPVB_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg1B.png"]		// bal alsó peron
+
+	XPVC_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2A.png"]		// bal felső peron Peron_magas_Voros_veg2A
+	XPVC_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2A.png"]		// jobb alsó peron
+	YPVC_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2A.png"]		// jobb felső peron
+	YPVC_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2A.png"]		// bal alsó peron
+
+	XPVD_A:		[72	* 0,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2B.png"]		// bal felső peron Peron_magas_Voros_veg2B
+	XPVD_B:		[72	* 1,	0,	64,	105,	-22	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2B.png"]		// jobb alsó peron
+	YPVD_A:		[72	* 2,	0,	64,	105,	0 	-31,	0 -74,		ANIM, "src/Peron_magas_Voros_veg2B.png"]		// jobb felső peron
+	YPVD_B:		[72	* 3,	0,	64,	105,	22 	-31,	-11 -74,	ANIM, "src/Peron_magas_Voros_veg2B.png"]		// bal alsó peron
+
+	XPMBO_A:		[72	* 0,	0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// bal felső peron Peron_magas_betonoszlop
+	XPMBO_B:		[72	* 1,	0,	64,	97,	-22	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb alsó peron
+	YPMBO_A:		[72	* 2,	0,	64,	97,	0 	-31,	0 -66,		ANIM, "src/Peron_magas_betonoszlop.png"]		// jobb felső peron
+	YPMBO_B:		[72	* 3,	0,	64,	97,	22 	-31,	-11 -66,	ANIM, "src/Peron_magas_betonoszlop.png"]		// bal alsó peron
+
+	// oszlopok
+	XOMB_A:	[72	* 0,	0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		// bal felső oszlopok
+	XOMB_B:	[72	* 1,	0,	64,	97,	-30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// jobb alsó oszlopok
+	YOMB_A:	[72	* 2,	0,	64,	97,	0 	-31,	4 -66,		ANIM, "src/Oszlop_magas_beton.png"]		//jobb felső oszlopok
+	YOMB_B:	[72	* 3,	0,	64,	97,	30	-31,	-11 -66,	ANIM, "src/Oszlop_magas_beton.png"]		// bal alsó oszlopok
+	// emeletek
+	EB01:		[72	* 0,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB02:		[72	* 1,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB03:		[72	* 2,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	EB04:		[72	* 3,	0,	64,	97,	0 	-31,	14 -66,	ANIM, "src/Emelet_beton_A.png"]
+	// kiegészítők
+	XKT1_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		// bal felső Kieg_magas_tabla1
+	XKT1_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// jobb alsó
+	YKT1_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_tabla1.png"]		//jobb felső
+	YKT1_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_tabla1.png"]		// bal alsó
+
+	XKAL_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		// bal felső Kieg_magas_aluljaro
+	XKAL_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// jobb alsó
+	YKAL_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_aluljaro.png"]		//jobb felső
+	YKAL_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_aluljaro.png"]		// bal alsó
+
+	XKL1_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1.png"]		// bal felső Kieg_magas_lampa1
+	XKL1_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1.png"]		// jobb alsó
+	YKL1_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1.png"]		//jobb felső
+	YKL1_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1.png"]		// bal alsó
+
+	XKL1P_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal felső Kieg_magas_lampa1pad
+	XKL1P_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// jobb alsó
+	YKL1P_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa1pad.png"]		//jobb felső
+	YKL1P_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa1pad.png"]		// bal alsó
+
+	XKL2_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2.png"]		// bal felső Kieg_magas_lampa2
+	XKL2_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2.png"]		// jobb alsó
+	YKL2_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2.png"]		//jobb felső
+	YKL2_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2.png"]		// bal alsó
+
+	XKL2P_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal felső Kieg_magas_lampa2pad
+	XKL2P_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// jobb alsó
+	YKL2P_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa2pad.png"]		//jobb felső
+	YKL2P_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa2pad.png"]		// bal alsó
+
+	XKL3_A:	[72	* 0,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		// bal felső Kieg_magas_lampa3
+	XKL3_B:	[72	* 1,	0,	64,	105,	-30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// jobb alsó
+	YKL3_A:	[72	* 2,	0,	64,	105,	0 	-31,	4 -74,		ANIM, "src/Kieg_magas_lampa3.png"]		//jobb felső
+	YKL3_B:	[72	* 3,	0,	64,	105,	30	-31,	-11 -74,	ANIM, "src/Kieg_magas_lampa3.png"]		// bal alsó
+}
+
 // --------------------------------------------------------------------------------A spriteset End
 // --------------------------------------------------------------------------------A010
 
@@ -252,7 +457,7 @@ spritelayout A010_X {
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
-		yextent:	5;			// \ végső pont 1/16
+		yextent:	6;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
 		zextent:	4;			// Magasság felső pont
     }
@@ -274,7 +479,7 @@ spritelayout A010_Y {
     building {
         sprite: building_A0(YP_A);		// Peron felső
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
-		xextent:	5;			// / végső pont 1/16
+		xextent:	6;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
 		yextent:	16;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
@@ -323,8 +528,8 @@ spritelayout A011_X {
         sprite: building_A0(XP_B);		// Peron alsó
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
-		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
-		yextent:	5;			// \ végső pont 1/16
+		yoffset:	10;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	6;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
 		zextent:	4;			// Magasság felső pont
     }
@@ -345,8 +550,8 @@ spritelayout A011_Y {
     }
     building {
         sprite: building_A0(YP_B);		// Peron alsó
-		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
-		xextent:	5;			// / végső pont 1/16
+		xoffset:	10;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	6;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
 		yextent:	16;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
@@ -396,7 +601,7 @@ spritelayout A012_X {
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
-		yextent:	5;			// \ végső pont 1/16
+		yextent:	6;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
 		zextent:	4;			// Magasság felső pont
     }
@@ -413,8 +618,8 @@ spritelayout A012_X {
         sprite: building_A0(XP_B);		// Peron alsó
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
-		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
-		yextent:	5;			// \ végső pont 1/16
+		yoffset:	10;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	6;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
 		zextent:	4;			// Magasság felső pont
     }
@@ -436,7 +641,7 @@ spritelayout A012_Y {
     building {
         sprite: building_A0(YP_A);		// Peron felső
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
-		xextent:	5;			// / végső pont 1/16
+		xextent:	6;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
 		yextent:	16;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
@@ -453,8 +658,8 @@ spritelayout A012_Y {
 	}
     building {
         sprite: building_A0(YP_B);		// Peron alsó
-		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
-		xextent:	5;			// / végső pont 1/16
+		xoffset:	10;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	6;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
 		yextent:	16;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
@@ -5762,6 +5967,7 @@ spritelayout A094_Y {
 		zextent:	18;			// Magasság felső pont
     }
 }
+
 random_switch(FEAT_STATIONS, TILE, rs_A094) {
 	1: STORE_TEMP(12, 1);
 	1: STORE_TEMP(13, 1);
@@ -9834,6 +10040,1158 @@ item(FEAT_STATIONS, A124, 124) {
 
 
 // --------------------------------------------------------------------------------A124 End
+// --------------------------------------------------------------------------------A125
+
+
+spritelayout A125_X {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
+    }
+    building {
+		sprite:	building_A0(XPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite:	building_A0(XOMB_A);		// Oszlop felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+		sprite:	DEFAULT(0);		// Áru felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	1;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+        sprite:	building_A0(XPMBO_B);		// Peron alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite:	building_A0(XOMB_B);		// Oszlop alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	15;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+building {
+        sprite:	roof_A0(EB15);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	14;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	16;			// Magasság felső pont
+    }
+childsprite {
+		sprite:	roof_A0(EB16);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+}
+
+spritelayout A125_Y {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
+    }
+    building {
+        sprite:	building_A0(YPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite:	building_A0(YOMB_A);		// Oszlop felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+		sprite:	DEFAULT(2);		// Áru felső
+		xoffset:	1;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite:	building_A0(YPMBO_B);		// Peron alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite:	building_A0(YOMB_B);		// Oszlop alsó
+		xoffset:	15;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+        sprite:	roof_A0(EB15);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	14;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	16;			// Magasság felső pont
+    }
+	childsprite {
+		sprite:	roof_A0(EB16);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+}
+
+item(FEAT_STATIONS, A125, 125) {
+    property {
+        class: "PMVA";		//PeronMagasVörösA
+        classname: string(STR_NAME_PMVA);		// Állomás csoport név
+        name: string(STR_NAME_A21);		// Állomás név
+		cargo_threshold: 200;		// Little és a lots közötti érték
+//        disabled_platforms: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronszám
+//        disabled_length: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronhossz
+        draw_pylon_tiles: 0;		// Felősvezeték oszlop eltűntetése (0 nem, 1 igen)
+        hide_wire_tiles: 0;		// Felősvezeték kábel eltűntetése (0 nem, 1 igen)
+//        non_traversable_tiles: 0xFF;		// Nem járható peron
+    }
+    graphics {
+        sprite_layouts: [A125_X, A125_Y];		// Irányok X jobbra fel, Y jobbra le
+		PASS: passanger_cargo;
+		NONE_cargo;
+    }
+}
+
+
+// --------------------------------------------------------------------------------A125 End
+// --------------------------------------------------------------------------------A126
+
+
+spritelayout A126_X {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
+    }
+    building {
+		sprite: building_A0(XPMBO_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: building_A0(XOMB_A);		// Oszlop felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+	building {
+        sprite: building_A0(XPA_B);		// Peron alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: building_A0(XOMB_B);		// Oszlop alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	15;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+		sprite: DEFAULT(1);		// Áru alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+building {
+        sprite: roof_A0(EB15);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	14;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	16;			// Magasság felső pont
+    }
+	childsprite {
+		sprite:	roof_A0(EB16);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+}
+
+spritelayout A126_Y {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
+    }
+    building {
+        sprite: building_A0(YPMBO_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: building_A0(YOMB_A);		// Oszlop felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+        sprite: building_A0(YPA_B);		// Peron alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: building_A0(YOMB_B);		// Oszlop alsó
+		xoffset:	15;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+		sprite: DEFAULT(3);		// Áru alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: roof_A0(EB15);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	14;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	16;			// Magasság felső pont
+    }
+	childsprite {
+		sprite:	roof_A0(EB16);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+}
+
+item(FEAT_STATIONS, A126, 126) {
+    property {
+        class: "PMVA";		//PeronMagasVörösA
+        classname: string(STR_NAME_PMVA);		// Állomás csoport név
+        name: string(STR_NAME_A21);		// Állomás név
+		cargo_threshold: 200;		// Little és a lots közötti érték
+//        disabled_platforms: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronszám
+//        disabled_length: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronhossz
+        draw_pylon_tiles: 0;		// Felősvezeték oszlop eltűntetése (0 nem, 1 igen)
+        hide_wire_tiles: 0;		// Felősvezeték kábel eltűntetése (0 nem, 1 igen)
+//        non_traversable_tiles: 0xFF;		// Nem járható peron
+    }
+    graphics {
+        sprite_layouts: [A126_X, A126_Y];		// Irányok X jobbra fel, Y jobbra le
+		PASS: passanger_cargo;
+		NONE_cargo;
+    }
+}
+
+
+// --------------------------------------------------------------------------------A126 End
+// --------------------------------------------------------------------------------A127
+
+
+spritelayout A127_X {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
+    }
+    building {
+		sprite: building_A0(XPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: building_A0(XOMB_A);		// Oszlop felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+		sprite: DEFAULT(0);		// Áru felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	1;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+        sprite: building_A0(XPA_B);		// Peron alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: building_A0(XOMB_B);		// Oszlop alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	15;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+		sprite: DEFAULT(1);		// Áru alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+building {
+        sprite: roof_A0(EB15);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	14;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	16;			// Magasság felső pont
+    }
+	childsprite {
+		sprite:	roof_A0(EB16);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+}
+
+spritelayout A127_Y {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
+    }
+    building {
+        sprite: building_A0(YPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: building_A0(YOMB_A);		// Oszlop felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+		sprite: DEFAULT(2);		// Áru felső
+		xoffset:	1;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: building_A0(YPA_B);		// Peron alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: building_A0(YOMB_B);		// Oszlop alsó
+		xoffset:	15;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	10;			// Magasság felső pont
+	}
+    building {
+		sprite: DEFAULT(3);		// Áru alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: roof_A0(EB15);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	14;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	16;			// Magasság felső pont
+    }
+	childsprite {
+		sprite:	roof_A0(EB16);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+}
+
+item(FEAT_STATIONS, A127, 127) {
+    property {
+        class: "PMVB";		//PeronMagasVörösA
+        classname: string(STR_NAME_PMVB);		// Állomás csoport név
+        name: string(STR_NAME_A21);		// Állomás név
+		cargo_threshold: 200;		// Little és a lots közötti érték
+//        disabled_platforms: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronszám
+//        disabled_length: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronhossz
+        draw_pylon_tiles: 0;		// Felősvezeték oszlop eltűntetése (0 nem, 1 igen)
+        hide_wire_tiles: 0;		// Felősvezeték kábel eltűntetése (0 nem, 1 igen)
+//        non_traversable_tiles: 0xFF;		// Nem járható peron
+    }
+    graphics {
+        sprite_layouts: [A127_X, A127_Y];		// Irányok X jobbra fel, Y jobbra le
+		PASS: passanger_cargo;
+		NONE_cargo;
+    }
+}
+
+
+// --------------------------------------------------------------------------------A127 End
+// --------------------------------------------------------------------------------A184
+
+
+spritelayout A184_X {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
+    }
+    building {
+		sprite: building_A0(XPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	1;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: nyugatigraf(NY_FALA);		// FAL felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	30;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FALAU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+		sprite: DEFAULT(0);		// Áru felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	1;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+        sprite: building_A0(XPA_B);		// Peron alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+    building {
+		sprite: DEFAULT(1);		// Áru alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+		sprite: nyugatigraf(NY_FRONTA);		// Front alsó
+		xoffset:	15;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	50;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FRONTAU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+	building {
+        sprite: nyugatigraf(NY_TETOA);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	30;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	20;			// Magasság felső pont
+    }
+}
+
+spritelayout A184_Y {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
+    }
+    building {
+        sprite: building_A0(YPA_A);		// Peron felső
+		xoffset:	1;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: nyugatigraf(NY_FALC);		// Fal felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	30;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FALCU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+		sprite: DEFAULT(2);		// Áru felső
+		xoffset:	1;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: building_A0(YPA_B);		// Peron alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+    building {
+		sprite: DEFAULT(3);		// Áru alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+		sprite: nyugatigraf(NY_FRONTC);		// Front alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	15;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	50;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FRONTCU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+        sprite: nyugatigraf(NY_TETOC);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	30;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	20;			// Magasság felső pont
+    }
+}
+
+item(FEAT_STATIONS, A184, 184) {
+    property {
+        class: "PNYU";		//PeronMagasVörösA
+        classname: string(STR_NAME_PNYU);		// Állomás csoport név
+        name: string(STR_NAME_A12);		// Állomás név
+		cargo_threshold: 200;		// Little és a lots közötti érték
+//        disabled_platforms: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronszám
+//        disabled_length: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronhossz
+        draw_pylon_tiles: 0;		// Felősvezeték oszlop eltűntetése (0 nem, 1 igen)
+        hide_wire_tiles: 0;		// Felősvezeték kábel eltűntetése (0 nem, 1 igen)
+//        non_traversable_tiles: 0xFF;		// Nem járható peron
+    }
+    graphics {
+        sprite_layouts: [A184_X, A184_Y];		// Irányok X jobbra fel, Y jobbra le
+		PASS: passanger_cargo;
+		NONE_cargo;
+    }
+}
+
+
+// --------------------------------------------------------------------------------A184 End
+// --------------------------------------------------------------------------------A185
+
+
+spritelayout A185_X {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
+    }
+    building {
+		sprite: building_A0(XPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+    building {
+		sprite: DEFAULT(0);		// Áru felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	1;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+        sprite: building_A0(XPA_B);		// Peron alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: nyugatigraf(NY_FALB);		// FAL alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	15;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	30;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FALBU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+		sprite: DEFAULT(1);		// Áru alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+		sprite: nyugatigraf(NY_FRONTB);		// Front alsó
+		xoffset:	15;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	50;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FRONTBU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+	building {
+        sprite: nyugatigraf(NY_TETOB);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	15;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	30;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	20;			// Magasság felső pont
+    }
+}
+
+spritelayout A185_Y {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
+    }
+    building {
+        sprite: building_A0(YPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+    building {
+		sprite: DEFAULT(2);		// Áru felső
+		xoffset:	1;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: building_A0(YPA_B);		// Peron alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: nyugatigraf(NY_FALD);		// Fal alsó
+		xoffset:	15;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	30;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FALDU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+		sprite: DEFAULT(3);		// Áru alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+		sprite: nyugatigraf(NY_FRONTD);		// Front alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	15;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	50;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FRONTDU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+        sprite: nyugatigraf(NY_TETOD);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	15;			// \ végső pont 1/16
+		zoffset:	30;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	20;			// Magasság felső pont
+    }
+}
+
+item(FEAT_STATIONS, A185, 185) {
+    property {
+        class: "PNYU";		//PeronMagasVörösA
+        classname: string(STR_NAME_PNYU);		// Állomás csoport név
+        name: string(STR_NAME_A12);		// Állomás név
+		cargo_threshold: 200;		// Little és a lots közötti érték
+//        disabled_platforms: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronszám
+//        disabled_length: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronhossz
+        draw_pylon_tiles: 0;		// Felősvezeték oszlop eltűntetése (0 nem, 1 igen)
+        hide_wire_tiles: 0;		// Felősvezeték kábel eltűntetése (0 nem, 1 igen)
+//        non_traversable_tiles: 0xFF;		// Nem járható peron
+    }
+    graphics {
+        sprite_layouts: [A185_X, A185_Y];		// Irányok X jobbra fel, Y jobbra le
+		PASS: passanger_cargo;
+		NONE_cargo;
+    }
+}
+
+
+// --------------------------------------------------------------------------------A185 End
+// --------------------------------------------------------------------------------A188
+
+
+spritelayout A188_X {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
+    }
+    building {
+		sprite: building_A0(XPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	1;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: nyugatigraf(NY_FALA);		// FAL felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	30;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FALAU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+		sprite: DEFAULT(0);		// Áru felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	1;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+        sprite: building_A0(XPA_B);		// Peron alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+    building {
+		sprite: DEFAULT(1);		// Áru alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+        sprite: nyugatigraf(NY_TETOA);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	30;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	20;			// Magasság felső pont
+    }
+}
+
+spritelayout A188_Y {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
+    }
+    building {
+        sprite: building_A0(YPA_A);		// Peron felső
+		xoffset:	1;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: nyugatigraf(NY_FALC);		// Fal felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	30;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FALCU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+		sprite: DEFAULT(2);		// Áru felső
+		xoffset:	1;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: building_A0(YPA_B);		// Peron alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+    building {
+		sprite: DEFAULT(3);		// Áru alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: nyugatigraf(NY_TETOC);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	30;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	20;			// Magasság felső pont
+    }
+}
+
+item(FEAT_STATIONS, A188, 188) {
+    property {
+        class: "PNYU";		//PeronMagasVörösA
+        classname: string(STR_NAME_PNYU);		// Állomás csoport név
+        name: string(STR_NAME_A12);		// Állomás név
+		cargo_threshold: 200;		// Little és a lots közötti érték
+//        disabled_platforms: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronszám
+//        disabled_length: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronhossz
+        draw_pylon_tiles: 0;		// Felősvezeték oszlop eltűntetése (0 nem, 1 igen)
+        hide_wire_tiles: 0;		// Felősvezeték kábel eltűntetése (0 nem, 1 igen)
+//        non_traversable_tiles: 0xFF;		// Nem járható peron
+    }
+    graphics {
+        sprite_layouts: [A188_X, A188_Y];		// Irányok X jobbra fel, Y jobbra le
+		PASS: passanger_cargo;
+		NONE_cargo;
+    }
+}
+
+
+// --------------------------------------------------------------------------------A188 End
+// --------------------------------------------------------------------------------A189
+
+
+spritelayout A189_X {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X; //Talaj sprite
+    }
+    building {
+		sprite: building_A0(XPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	5;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+    building {
+		sprite: DEFAULT(0);		// Áru felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	1;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+        sprite: building_A0(XPA_B);		// Peron alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: nyugatigraf(NY_FALB);		// FAL alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	15;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	1;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	30;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FALBU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+		sprite: DEFAULT(1);		// Áru alsó
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	11;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	4;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+	building {
+        sprite: nyugatigraf(NY_TETOB);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	30;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	20;			// Magasság felső pont
+    }
+}
+
+spritelayout A189_Y {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y; //Talaj sprite
+    }
+    building {
+        sprite: building_A0(YPA_A);		// Peron felső
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	5;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+    building {
+		sprite: DEFAULT(2);		// Áru felső
+		xoffset:	1;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: building_A0(YPA_B);		// Peron alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	4;			// Magasság felső pont
+    }
+	building {
+		sprite: nyugatigraf(NY_FALD);		// Fal alsó
+		xoffset:	15;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	1;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	30;			// Magasság felső pont
+	}
+	childsprite {
+		sprite:	nyugatigraf(NY_FALDU);
+		recolour_mode:	RECOLOUR_TRANSPARENT;
+		palette:	PALETTE_USE_DEFAULT;
+	}
+    building {
+		sprite: DEFAULT(3);		// Áru alsó
+		xoffset:	11;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	4;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	4;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	8;			// Magasság felső pont
+	}
+    building {
+        sprite: nyugatigraf(NY_TETOD);		// Tető
+		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
+		xextent:	16;			// / végső pont 1/16
+		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
+		yextent:	16;			// \ végső pont 1/16
+		zoffset:	30;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
+		zextent:	20;			// Magasság felső pont
+    }
+}
+
+item(FEAT_STATIONS, A189, 189) {
+    property {
+        class: "PNYU";		//PeronMagasVörösA
+        classname: string(STR_NAME_PNYU);		// Állomás csoport név
+        name: string(STR_NAME_A12);		// Állomás név
+		cargo_threshold: 200;		// Little és a lots közötti érték
+//        disabled_platforms: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronszám
+//        disabled_length: bitmask(2, 3, 4, 5, 6, 7, 8);		// Letiltott peronhossz
+        draw_pylon_tiles: 0;		// Felősvezeték oszlop eltűntetése (0 nem, 1 igen)
+        hide_wire_tiles: 0;		// Felősvezeték kábel eltűntetése (0 nem, 1 igen)
+//        non_traversable_tiles: 0xFF;		// Nem járható peron
+    }
+    graphics {
+        sprite_layouts: [A189_X, A189_Y];		// Irányok X jobbra fel, Y jobbra le
+		PASS: passanger_cargo;
+		NONE_cargo;
+    }
+}
+
+
+// --------------------------------------------------------------------------------A189 End
 // --------------------------------------------------------------------------------A009
 
 spritelayout A009_X {

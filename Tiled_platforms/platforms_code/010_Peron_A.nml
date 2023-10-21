@@ -10,7 +10,7 @@ spritelayout A010_X {
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
 		xextent:	16;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
-		yextent:	5;			// \ végső pont 1/16
+		yextent:	6;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
 		zextent:	4;			// Magasság felső pont
     }
@@ -32,7 +32,7 @@ spritelayout A010_Y {
     building {
         sprite: building_A0(YP_A);		// Peron felső
 		xoffset:	0;			// / kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel jobbra
-		xextent:	5;			// / végső pont 1/16
+		xextent:	6;			// / végső pont 1/16
 		yoffset:	0;			// \ kezdő pont 1/16 - Poziciót dupla ennyivel fel, és ennyivel balra
 		yextent:	16;			// \ végső pont 1/16
 		zoffset:	0;			// Magasság kezdő pont - Poziciót ennyivel lejjebb
